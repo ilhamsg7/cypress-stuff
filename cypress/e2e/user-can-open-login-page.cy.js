@@ -5,9 +5,3 @@ describe('User Can Open Login Page', () => {
     cy.get("h4").should("have.text", "Login");
   })
 })
-
-// describe('Test Scenarion', () => {
-//   it('Test Case 1', () => {
-//     cy.visit('https://example.cypress.io')
-//   })
-// })
